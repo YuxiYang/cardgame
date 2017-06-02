@@ -1,0 +1,39 @@
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif;  text-align:center; margin:0 auto;}
+table{border-collapse:collapse;border-spacing:0;}
+a{color:#333;text-decoration:none;}
+a:hover{color:#ef9b11; text-decoration:underline;}
+em{ font-style:normal;}
+
+#main{width:403px;margin:20px auto; height:728px; _height:auto;}
+#selectItem{ background:url(../images/bg01.gif) no-repeat; width:403px; height:393px; position:absolute;z-index:2;}
+#selectItem h2{ width:100%; height:65px;}
+#preview{margin:1px;border:1px solid #CCC;}
+#result{border:1px solid #CCC;margin-top:10px;}
+.tit{line-height:20px;height:20px;margin:1px;padding-left:10px;}
+.bgc_ccc{background:#CCC;}
+.bgc_eee{background:#eee;}
+.c_999{color:#999}
+.pointer{cursor:pointer;}
+.left{float:left;}
+.right{float:right; padding:7px 13px 0 0;}
+.cls{clear:both;font-size:0px;height:0px;overflow:hidden;}
+.hidden{display:none;}
+.move{cursor:move;}
+#bg{position: fixed; z-index:0;width: 100%;height: 100%;top: 0;left: 0;filter: alpha(opacity=40);opacity: 0.5;overflow: hidden;background:#adadad;display:none;}
+*html { background:url(*) fixed; }
+*html body { margin:0; height:100%; }
+*html #bg{ position: absolute; left: expression(documentElement.scrollLeft + documentElement.clientWidth - this.offsetWidth); top: expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight); }
+/*top01-pro*/
+.top01-pro{ background:url(../images/bg02.gif) repeat-x left bottom; margin-left:30px; display:inline; float:left; height:28px; width:344px;}
+.top01-pro li{ float:left; display:inline; margin-left:9px;}
+.top01-pro li b{ cursor:pointer; display:block; float:left; background:url(../images/bg03.gif) no-repeat -82px 0; text-align:center; line-height:28px; width:76px; height:28px; font-size:14px; color:#00c;}
+.top01-pro li.hover b{ background:url(../images/bg03.gif) no-repeat; font-weight:bold; text-decoration:none; color:#023d52;}
+
+/*mid01-pro*/
+.mid01-pro{width:344px;padding-top:9px;}
+
+.box-163css{ width:100%; float:left; padding-top:10px;}

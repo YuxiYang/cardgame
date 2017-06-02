@@ -1,0 +1,97 @@
+
+.flip {
+  background: #333;
+  -webkit-perspective: 800;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  margin: 50px auto;
+}
+
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+}
+
+.flip .card {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+}
+
+.flip .result {
+  width: 95%;
+  height: 10%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  z-index: 2;
+  margin-right: auto;
+  font-family: Georgia;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 50px;
+  color: #DFDFDF;
+}
+
+.flip .card .face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  z-index: 2;
+  font-family: Georgia;
+  font-size: 3em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip .card .front {
+  position: absolute;
+  z-index: 1;
+  background: #16A085;
+  color: #DFDFDF;
+  cursor: pointer;
+  outline:red;
+}
+
+.flip .card .back {
+  -webkit-transform: rotatey(-180deg);
+  background: #C0392B;
+  color: #DFDFDF;
+  cursor: pointer;
+}
+
+.timer {
+  height: 5px;
+  position: absolute;
+  top: 0;
+  background: #C0392B;
+  -webkit-backface-visibility: hidden;
+  z-index: 1
+}
+
+@-webkit-keyframes timer {
+  100% {
+    width: 100%;
+  }
+}
+
+@-moz-keyframes timer {
+  100% {
+    width: 100%;
+  }
+}
+
+@-o-keyframes timer {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes timer {
+  100% {
+    width: 100%;
+  }
+}
